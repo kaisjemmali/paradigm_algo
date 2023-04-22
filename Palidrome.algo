@@ -1,0 +1,18 @@
+ALGORITHM Palidrome
+VAR
+    word : STRING[n];
+BEGIN
+    Write("Enter a word :");
+    Read(word);
+    FUNCTION palidrom_verif(word) : return_type
+    BEGIN
+        IF (word.lenght<=1) THEN
+            Write("The word is to short to verify if it is a paradigm")
+        ELSE_IF (word[0]<>word[n]) THEN
+            Write("The word is not a paradigm")
+        ELSE
+            //We compare fist char with last char, second char with n-1 char etc...
+        END_IF
+        RETURN value ;
+    END
+END
